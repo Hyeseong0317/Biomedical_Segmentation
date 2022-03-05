@@ -7,3 +7,5 @@
 [Attention-enabled 3D boosted convolutional neural
 networks for semantic CT segmentation using
 deep supervision](https://iopscience.iop.org/article/10.1088/1361-6560/ab2818/pdf)
+
+[UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/pdf/1807.10165.pdf)
