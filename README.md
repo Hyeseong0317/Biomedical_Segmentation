@@ -27,3 +27,7 @@ R-CNN decomposes the overall detection problem into two subproblems: to first ut
 [Going deeper with convolutions, GoogleNet, Inception](https://arxiv.org/pdf/1409.4842.pdf)
 
 Inception architecture was especially useful in the context of localization and object detection as the base network for [6] and [5]. Interestingly, while most of the original architectural choices have been questioned and tested thoroughly, they turned out to be at least locally optimal.
+
+#### Object detection Key
+
+Note that assuming translation invariance means that our network will be built from convolutional building blocks. All we need is to find the optimal local construction and to repeat it spatially
