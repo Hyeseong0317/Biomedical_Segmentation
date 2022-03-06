@@ -9,3 +9,5 @@ networks for semantic CT segmentation using
 deep supervision](https://iopscience.iop.org/article/10.1088/1361-6560/ab2818/pdf)
 
 [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/pdf/1807.10165.pdf)
+
+[Cross Entropy meaning](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
