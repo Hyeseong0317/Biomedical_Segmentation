@@ -37,3 +37,5 @@ Note that assuming translation invariance means that our network will be built f
 [nnUnet Biomedical Segmentation FrameWork 2D, 3D](https://github.com/MIC-DKFZ/nnUNet)
 
 [nnUnet paper](https://arxiv.org/pdf/1809.10486.pdf)
+
+[Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf)
