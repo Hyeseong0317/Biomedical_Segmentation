@@ -35,3 +35,5 @@ Inception architecture was especially useful in the context of localization and 
 Note that assuming translation invariance means that our network will be built from convolutional building blocks. All we need is to find the optimal local construction and to repeat it spatially
 
 [nnUnet Biomedical Segmentation FrameWork 2D, 3D](https://github.com/MIC-DKFZ/nnUNet)
+
+[nnUnet paper](https://arxiv.org/pdf/1809.10486.pdf)
