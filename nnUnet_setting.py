@@ -12,5 +12,5 @@ nnUNet_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -t TASK_NAME_OR_ID -m CONFIGURAT
 
 nnUNet_predict -i '/mnt/intern/nnUNet/nnUNet_raw_data_base/nnUNet_raw_data/Task004_Hippocampus/imagesTs' -o '/mnt/intern/nnUNet/output_folder' -t 'Task004_Hippocampus'
 
-----------nnUNet GPU 설정 후 커스텀 데이터 연습---------------
+----------nnUNet GPU 5번으로 설정 후 커스텀 데이터 연습---------------
 CUDA_VISIBLE_DEVICES=5 nnUNet_train 2d nnUNetTrainerV2 0 
