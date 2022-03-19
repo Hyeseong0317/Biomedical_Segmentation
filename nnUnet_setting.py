@@ -14,3 +14,5 @@ nnUNet_predict -i '/mnt/intern/nnUNet/nnUNet_raw_data_base/nnUNet_raw_data/Task0
 
 ----------nnUNet GPU 5번으로 설정 후 커스텀 데이터 연습---------------
 CUDA_VISIBLE_DEVICES=5 nnUNet_train 2d nnUNetTrainerV2 0 
+
+nvidia-smi -->Terminal에 입력하여 GPU 사용량 확인
