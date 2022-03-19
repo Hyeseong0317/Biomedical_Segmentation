@@ -42,3 +42,5 @@ Note that assuming translation invariance means that our network will be built f
 
 [Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
 
+[Deep supervision](https://arxiv.org/pdf/1801.03399.pdf)
+
