@@ -1,6 +1,6 @@
 nnU-Net
 
-------------.bashrc 설정----------
+------------.bashrc 설정--------------
 export nnUNet_raw_data_base="/mnt/intern/nnUNet/nnUNet_raw_data_base"
 export nnUNet_preprocessed="/mnt/intern/nnUNet/nnUNet_preprocessed"
 export RESULTS_FOLDER="/mnt/intern/nnUNet/nnUNet_trained_models"
