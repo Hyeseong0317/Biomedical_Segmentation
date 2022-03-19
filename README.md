@@ -44,3 +44,4 @@ Note that assuming translation invariance means that our network will be built f
 
 [Deep supervision](https://arxiv.org/pdf/1801.03399.pdf)
 
+As such, coarse-grained class labels used as intermediate concepts are able to improve fine-grained recognition performance, which further validates our deep supervision strategy.
