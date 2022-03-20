@@ -17,3 +17,9 @@ for i in range(3):
     plt.gcf().set_size_inches(10, 10)
     
 plt.show()
+
+#%%
+# nifti -> mat save
+import scipy.io
+mdic_data = {'data' : data}
+scipy.io.savemat('/mnt/intern/nnUNet/Aorta_output/10000119.mat', mdic_data)
