@@ -48,3 +48,8 @@ As such, coarse-grained class labels used as intermediate concepts are able to i
 
 The more concepts applied, the better chance that the generalization is improved. In conclusion, deep supervision with intermediate concepts regularizes the network training by decreasing the number of incorrect solutions that generalize poorly to the test set.
 
+[Liver Tumor Segmentation](https://arxiv.org/pdf/1901.04056.pdf)
+
+##### Higher Dimensionality
+However, Chlebus et al. used a small 3D network as the final network in a cascaded infrastructure to fuse the segmentation results of various previous
+networks into a final segmentation mask, while Li implemented a shallow 3D network to further refine the preliminary results of a first network. These good results not only prove the feasibility and usefulness of a 3D network architecture despite the currently limited memory availability when used as a supplementary role but also show their huge potential for future performance increase by being able to capture the whole volume context.
