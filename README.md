@@ -63,3 +63,5 @@ networks into a final segmentation mask, while Li implemented a shallow 3D netwo
 [SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/pdf/1511.00561.pdf)
 
 [PSPNet: Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdf)
+
+[2.5D: Deep learning of the sectional appearances of 3D CT images for anatomical structure segmentation based on an FCN voting method.]()
