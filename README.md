@@ -69,3 +69,5 @@ networks into a final segmentation mask, while Li implemented a shallow 3D netwo
 [Semantic segmentation using adversarial networks](https://arxiv.org/pdf/1611.08408.pdf)
 
 [Automatic liver segmentation using an adversarial image-to-image network](https://arxiv.org/pdf/1707.08037.pdf)
+
+[Edge-aware Fully Convolutional Network with CRF-RNN Layer for Hippocampus Segmentation](https://ieeexplore.ieee.org/abstract/document/8785801)
