@@ -67,3 +67,5 @@ networks into a final segmentation mask, while Li implemented a shallow 3D netwo
 [2.5D: Deep learning of the sectional appearances of 3D CT images for anatomical structure segmentation based on an FCN voting method.]()
 
 [Semantic segmentation using adversarial networks](https://arxiv.org/pdf/1611.08408.pdf)
+
+[Automatic liver segmentation using an adversarial image-to-image network](https://arxiv.org/pdf/1707.08037.pdf)
