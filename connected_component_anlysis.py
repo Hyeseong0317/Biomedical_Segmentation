@@ -44,9 +44,6 @@ def connected_component_labeling(bin_img, connectivity=connectivity_8):
       labels[labels==f] = e[0]
   return labels
            
-
- 
-
 def threshold_labels(labels, threshold=10000):
   
   unique_elements, counts_elements = np.unique(labels, return_counts=True)
