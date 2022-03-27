@@ -64,7 +64,7 @@ def connected_component_labeling(bin_img, connectivity=connectivity_8):
                         for i, e in enumerate(equivalent):
                             if uni_L[0] in e: 
                                 equivalent[i].extend(uni_L[1:]) # if) uni_L[0] exists in a equivalent table, extend new unique values to the equivalent table
-                                equivalent[i] = list(sorted(set(equivalent[i]))) # 
+                                equivalent[i] = list(sorted(set(equivalent[i]))) 
                   
 # 2nd pass
     for e in equivalent: # e = [1,2] / e[0]=1, e[1]=2
