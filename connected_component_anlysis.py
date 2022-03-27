@@ -75,10 +75,9 @@ def connected_component_labeling(bin_img, connectivity=connectivity_8):
 def largest_labels(labels):
       
     unique_elements, counts_elements = np.unique(labels, return_counts=True)
-    # print(unique_elements, counts_elements)
 
-    largest_component_counts = sorted(counts_elements, reverse=True)[1]
-    idx = np.where(counts_elements == largest_component_counts) # 값이 가장 많은 label의 index반환
+    largest_component_counts = sorted(counts_elements, reverse=True)[1] # background가 아닌 제일 많은 픽셀을 차지하는 element
+    idx = np.where(counts_elements == largest_component_counts) # background가 아닌 값이 가장 많은 label의 index반환
     largest_component = unique_elements[idx] # largest component와  index가 매치하는 value 선택
     labels = np.where(labels == largest_component, 0, labels) # largest component 제거
     return labels
