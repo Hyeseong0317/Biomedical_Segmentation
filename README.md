@@ -66,6 +66,8 @@ SegNet on the other hand is more efficient since it only stores the max-pooling 
 
 [PSPNet: Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdf)
 
+We have proposed an effective pyramid scene parsing network for complex scene understanding. The global pyramid pooling feature provides additional contextual information.
+
 [Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation](https://arxiv.org/pdf/1506.04924.pdf)
 
 Bridging layers play a critical role to reduce output space of segmentation, and facilitate to learn segmentation network using a handful number of segmentation annotations.
