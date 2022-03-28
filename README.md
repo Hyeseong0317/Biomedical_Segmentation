@@ -66,6 +66,10 @@ SegNet on the other hand is more efficient since it only stores the max-pooling 
 
 [PSPNet: Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdf)
 
+[Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation](https://arxiv.org/pdf/1506.04924.pdf)
+
+Bridging layers play a critical role to reduce output space of segmentation, and facilitate to learn segmentation network using a handful number of segmentation annotations.
+
 [2.5D: Deep learning of the sectional appearances of 3D CT images for anatomical structure segmentation based on an FCN voting method.]()
 
 [Semantic segmentation using adversarial networks](https://arxiv.org/pdf/1611.08408.pdf)
