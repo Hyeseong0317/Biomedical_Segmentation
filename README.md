@@ -38,7 +38,7 @@ Note that assuming translation invariance means that our network will be built f
 
 [nnUnet paper](https://arxiv.org/pdf/1809.10486.pdf)
 
-[Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf)
+[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 [Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
 
