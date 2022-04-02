@@ -87,6 +87,7 @@ Vessel 시각화 tool ITK-SNAP
 [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](https://arxiv.org/pdf/1606.06650.pdf)
 
 ##### The implementation performs on-the-fly elastic deformations for efficient data augmentation during training
+##### Data augmentation is done on-the-fly, which results in as many different images as training iterations.
 
 We also introduce batch normalization (“BN”) before each ReLU. In [4], each batch is normalized during training with its mean and standard deviation and global statistics are updated using these values. This is followed by a layer to learn scale and bias explicitly. At test time, normalization is done via these computed global statistics and the learned scale and bias. However, we have a batch size of one and few samples. In such applications, using the current statistics also at test time works the best.
 --> batch size가 작으면 그냥 test에서도 test dataset이 갖는 statistic을 사용하는게 제일 좋다고 한다. 다시말해 batch size가 작으면 test시에 InstanceNorm을 쓴다는 의미. (BatchNorm은 training에서 학습된 mean과 bias를 평균내서 test시에 사용한다.)
