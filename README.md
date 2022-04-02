@@ -82,6 +82,8 @@ The proposed deconvolution network is suitable to generate dense and precise obj
 
 [Projection-Based 2.5D U-net Architecture for Fast Volumetric Segmentation](https://arxiv.org/pdf/1902.00347.pdf)
 
+Vessel 시각화 tool ITK-SNAP
+
 [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](https://arxiv.org/pdf/1606.06650.pdf)
 
 [3D Convolutional Neural Networks for Brain Tumor Segmentation: a comparison of multi-resolution architectures](https://arxiv.org/pdf/1705.08236.pdf)
