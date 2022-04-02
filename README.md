@@ -80,6 +80,8 @@ The proposed deconvolution network is suitable to generate dense and precise obj
 
 [Random 2.5D U-net for Fully 3D Segmentation](https://arxiv.org/pdf/1910.10398.pdf)
 
+Although the construction of 3D segmentation masks with the help of 3D U-net [2, 4, 8] delivers very satisfying results for vessel segmentation, generation of artefacts and the restrictions to model’s complexity due to memory issues are hardly sustainable. Therefore, we proposed the random 2.5D Unet structure, that is able to conduct volumetric segmentation of very big biomedical 3D scans so we can train a network without any concern about memory space and input size. For the targeted application, the random 2.5D U-net even outperformed the standard slice-by-slice and 3D convolution approaches and showed more consistent accuracy for test application.
+
 [Projection-Based 2.5D U-net Architecture for Fast Volumetric Segmentation](https://arxiv.org/pdf/1902.00347.pdf)
 
 Vessel 시각화 tool ITK-SNAP
@@ -108,7 +110,7 @@ The important part of the architecture, which allows us to train on sparse annot
 
 [3D Convolutional Neural Networks for Brain Tumor Segmentation: a comparison of multi-resolution architectures](https://arxiv.org/pdf/1705.08236.pdf)
 
-Although the construction of 3D segmentation masks with the help of 3D U-net [2, 4, 8] delivers very satisfying results for vessel segmentation, generation of artefacts and the restrictions to model’s complexity due to memory issues are hardly sustainable. Therefore, we proposed the random 2.5D Unet structure, that is able to conduct volumetric segmentation of very big biomedical 3D scans so we can train a network without any concern about memory space and input size. For the targeted application, the random 2.5D U-net even outperformed the standard slice-by-slice and 3D convolution approaches and showed more consistent accuracy for test application.
+This distinction is rather challenging as borders are often fuzzy, and also because tumors vary across patients in size, location and extent. Several imaging modalities can be used to solve this task, individually or combined, including T1, T1-contrasted, T2 and FLAIR, each one providing different biological information.
 
 [Semantic segmentation using adversarial networks](https://arxiv.org/pdf/1611.08408.pdf)
 
