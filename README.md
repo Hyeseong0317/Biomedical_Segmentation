@@ -78,6 +78,8 @@ The proposed deconvolution network is suitable to generate dense and precise obj
 
 [2.5D: Deep learning of the sectional appearances of 3D CT images for anatomical structure segmentation based on an FCN voting method.]()
 
+[Random 2.5D U-net for Fully 3D Segmentation](https://arxiv.org/pdf/1910.10398.pdf)
+
 [Semantic segmentation using adversarial networks](https://arxiv.org/pdf/1611.08408.pdf)
 
 [Automatic liver segmentation using an adversarial image-to-image network](https://arxiv.org/pdf/1707.08037.pdf)
