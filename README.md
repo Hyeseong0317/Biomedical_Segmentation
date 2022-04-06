@@ -4,9 +4,11 @@
 
 [Mask R-CNN Object Detection](https://arxiv.org/pdf/1703.06870.pdf)
 
-[Attention-enabled 3D boosted convolutional neural
-networks for semantic CT segmentation using
-deep supervision](https://iopscience.iop.org/article/10.1088/1361-6560/ab2818/pdf)
+[Attention-enabled 3D boosted convolutional neural networks for semantic CT segmentation using deep supervision](https://iopscience.iop.org/article/10.1088/1361-6560/ab2818/pdf)
+
+[Training Deeper Convolutional Networks with Deep Supervision](https://arxiv.org/pdf/1505.02496.pdf)
+
+[Deeply-Supervised Nets](https://arxiv.org/pdf/1409.5185.pdf)
 
 [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/pdf/1807.10165.pdf)
 
