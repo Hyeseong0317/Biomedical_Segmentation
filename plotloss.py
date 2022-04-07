@@ -1,3 +1,4 @@
+    ### nnU-Net--> network_training --> nnUnetTrainer.py --> def plot_progress 참고
     def plot_progress(self):
         """
         Should probably by improved
