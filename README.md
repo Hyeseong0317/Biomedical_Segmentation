@@ -1,5 +1,7 @@
 # CT_Segmentation
 
+[SimpleITK, DICOM 다루기](http://simpleitk.org/SimpleITK-Notebooks/01_Image_Basics.html)
+
 [Batach VS Instance Normalization](https://www.baeldung.com/cs/instance-vs-batch-normalization)
 
 [Mask R-CNN Object Detection](https://arxiv.org/pdf/1703.06870.pdf)
