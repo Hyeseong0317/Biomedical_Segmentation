@@ -14,6 +14,8 @@
 
 [Hausdorff Distance for Iris Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4450956)
 
+[Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+
 [Densely connected convolutional networks](https://arxiv.org/pdf/1608.06993.pdf)
 
 [Automatic brain tumor segmentation using cascaded anisotropic convolutional neural networks](https://arxiv.org/pdf/1709.00382.pdf)
