@@ -4,6 +4,16 @@
 
 [Batach VS Instance Normalization](https://www.baeldung.com/cs/instance-vs-batch-normalization)
 
+[Instance Normalization: The Missing Ingredient for Fast Stylization](https://arxiv.org/pdf/1607.08022.pdf)
+
+[Rectifier Nonlinearities Improve Neural Network Acoustic Models](https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf)
+
+[Cross Entropy meaning](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
+
+[Hausdorff Distance meaning](https://structseg2019.grand-challenge.org/Evaluation/)
+
+[Hausdorff Distance for Iris Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4450956)
+
 [Mask R-CNN Object Detection](https://arxiv.org/pdf/1703.06870.pdf)
 
 [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
@@ -17,12 +27,6 @@
 [Deeply-Supervised Nets](https://arxiv.org/pdf/1409.5185.pdf)
 
 [UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/pdf/1807.10165.pdf)
-
-[Cross Entropy meaning](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
-
-[Hausdorff Distance meaning](https://structseg2019.grand-challenge.org/Evaluation/)
-
-[Hausdorff Distance for Iris Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4450956)
 
 [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 
@@ -45,6 +49,8 @@ Note that assuming translation invariance means that our network will be built f
 [nnUnet Biomedical Segmentation FrameWork 2D, 3D](https://github.com/MIC-DKFZ/nnUNet)
 
 [nnUnet paper](https://arxiv.org/pdf/1809.10486.pdf)
+
+[Automated Design of Deep Learning Methods for Biomedical Image Segmentation]()
 
 [nnU-Net for Brain Tumor Segmentation](https://arxiv.org/pdf/2011.00848.pdf)
 
