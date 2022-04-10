@@ -59,6 +59,8 @@ obtain the final prediction.
 #### nnU-Net postprocessing 주의점, 작은 lesion이 제거되버릴 수 있다.
 The enhancing tumor score of 0 in the absence of predicted enhancing tumor voxels indicates either that our model missed a small enhancing tumor lesion or that it was removed as a result of our postprocessing. An inspection of the non-postprocessed segmentation mask reveals that the enhancing tumor lesion was indeed segmented by the model and must have been removed during postprocessing.
 
+#### BraTS platform에 가장 유리한 performance 측정방식을 활용하면 1등할 수 있다.
+
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 [Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
