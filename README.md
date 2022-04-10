@@ -40,6 +40,8 @@ Lack of consistent failures can be interpreted as statistical independency. Thus
 
 4.hyper-parameters(learning rate)
 
+[Unsupervised domain adaptation in brain lesion segmentation with adversarial networks](https://arxiv.org/pdf/1612.08894.pdf)
+
 [Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation](https://www.sciencedirect.com/science/article/pii/S1361841516301839)
 
 [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567.pdf)
