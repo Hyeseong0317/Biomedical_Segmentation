@@ -50,6 +50,8 @@ Lack of consistent failures can be interpreted as statistical independency. Thus
 
 [Mask R-CNN Object Detection](https://arxiv.org/pdf/1703.06870.pdf)
 
+[Fully Convolutional Networks for Semantic Segmentation](https://www.cv foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)
+
 [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
 
 [The Importance of Skip Connections in Biomedical Image Segmentation](https://arxiv.org/pdf/1608.04117.pdf)
