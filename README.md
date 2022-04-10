@@ -44,6 +44,10 @@ Note that assuming translation invariance means that our network will be built f
 
 [nnU-Net for Brain Tumor Segmentation](https://arxiv.org/pdf/2011.00848.pdf)
 
+BatchNorm + DataAugmentation --> effectively close the domain gap to other scanners.
+
+Batch normalization In our participation in the M&Ms challenge 7 we noticed that more aggressive data augmentation could be used to effectively close the domain gap to other scanners, but only when used in conjunction with batch normalization (instead of instance normalization). 
+
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 [Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
