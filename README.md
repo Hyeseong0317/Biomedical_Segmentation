@@ -14,6 +14,18 @@
 
 [Hausdorff Distance for Iris Recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4450956)
 
+[Densely connected convolutional networks](https://arxiv.org/pdf/1608.06993.pdf)
+
+[Automatic brain tumor segmentation using cascaded anisotropic convolutional neural networks](https://arxiv.org/pdf/1709.00382.pdf)
+
+[Ensembles of Multiple Models and Architectures for Robust Brain Tumour Segmentation](https://arxiv.org/pdf/1711.01468.pdf)
+
+[Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567.pdf)
+
+[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
+
+[Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
+
 [Mask R-CNN Object Detection](https://arxiv.org/pdf/1703.06870.pdf)
 
 [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
@@ -80,10 +92,6 @@ The enhancing tumor class is arguably the most difficult to segment in this data
  Ranking schemes can be differentiated in ’aggregate then rank’ and ’rank then average’ approaches. In the former, some aggregated metric (for example the average) is computed and then used to rank the participants. In the latter, the participants are ranked on each individual training case and then their ranks are accumulated across all cases. Different algorithm characteristics may be desired depending on the ranking scheme that is used to evaluate them. For example, in an ’aggregate then rank’ scheme, median aggregation (as opposed to the mean) would be more forgiving to algorithms that produce badly predicted outliers. 
 #### BraTS uses a ’rank then aggregate’ approach, most likely because it is well suited to combine different types of segmentation metrics (such as HD95 and Dice).
 
-[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
-
-[Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
-
 [Deep supervision](https://arxiv.org/pdf/1801.03399.pdf)
 
 As such, coarse-grained class labels used as intermediate concepts are able to improve fine-grained recognition performance, which further validates our deep supervision strategy.
@@ -140,7 +148,6 @@ The important part of the architecture, which allows us to train on sparse annot
 
 #### In this experiment BN also improves the result, except for the third setting, where it was counterproductive. We think that the large differences in the data sets are responsible for this effect. The typical use case for the fully-automated segmentation will work on much larger sample sizes, where the same number of sparse labels could be easily distributed over much more data sets to obtain a more representative training data set. (BatchNorm3d가 오히려 성능을 떨어뜨리는 이유)
 
-[Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567.pdf)
 
 [Image Segmentation with Cascaded Hierarchical Models and Logistic Disjunctive Normal Networks](https://ieeexplore.ieee.org/document/6751380)
 
