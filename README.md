@@ -29,6 +29,8 @@ Regularization can be explicit, such as weight decay that prevents networks from
 
 Lack of consistent failures can be interpreted as statistical independency. Thus methods for de-correlating the instances have been developed. The most popular is bagging [17], commonly used for random forests. It uses bootstrap sampling to learn less correlated instances from different subsets of the data. [Bagging predictors](https://link.springer.com/article/10.1007/BF00058655)
 
+#### Esemble benefit -> Intuitively, only inconsistent errors can be averaged out.
+
 
 [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567.pdf)
 
