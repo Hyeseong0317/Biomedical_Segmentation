@@ -66,6 +66,10 @@ The enhancing tumor score of 0 in the absence of predicted enhancing tumor voxel
 #### small lesion을 제거해서 false positive의 dice score를 1로 하는 것은 챌린지에서 우승하는데 유리하지만, 임상에서는 small lesion을 찾는게 중요하다. 따라서 postprocessing으로 small lesion을 제거해버리지 않도록 하도록 고려해야한다.
 The enhancing tumor class is arguably the most difficult to segment in this dataset. What makes this class particularly challenging is the way its evaluation is handled when the reference segmentation of an image does not contain this class. The BraTS evaluation scheme favors the removal of small enhancing tumor lesions and thus encourages such postprocessing. In a clinical scenario where the accurate detection of small enhancing tumors could be critical, this property is not necessarily desired and we recommend to omit the postprocessing presented in this manuscript.
 
+#### leaderboard의 ranking strategy에 따라 순위가 달라진다.
+ Ranking schemes can be differentiated in ’aggregate then rank’ and ’rank then average’ approaches. In the former, some aggregated metric (for example the average) is computed and then used to rank the participants. In the latter, the participants are ranked on each individual training case and then their ranks are accumulated across all cases. Different algorithm characteristics may be desired depending on the ranking scheme that is used to evaluate them. For example, in an ’aggregate then rank’ scheme, median aggregation (as opposed to the mean) would be more forgiving to algorithms that produce badly predicted outliers. 
+#### BraTS uses a ’rank then aggregate’ approach, most likely because it is well suited to combine different types of segmentation metrics (such as HD95 and Dice).
+
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 [Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
