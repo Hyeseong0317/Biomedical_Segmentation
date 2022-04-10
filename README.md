@@ -31,6 +31,14 @@ Lack of consistent failures can be interpreted as statistical independency. Thus
 
 #### Ensemble benefit -> Intuitively, only inconsistent errors can be averaged out.
 
+#### Model performance 고려사항 4가지
+1.large receptive fields(=improved localisation capbilities but less sensitive to fine texture than models emphasizing local information)
+
+2.handling class imbalance(class-weighted sampling or class-weighted corss entropy)
+
+3.loss function(DSC, IoU, cross entropy)
+
+4.hyper-parameters(learning rate)
 
 [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567.pdf)
 
