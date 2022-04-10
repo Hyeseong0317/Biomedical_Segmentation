@@ -63,6 +63,9 @@ The enhancing tumor score of 0 in the absence of predicted enhancing tumor voxel
 
 #### BraTS platform에 가장 유리한 performance 측정방식을 활용하면 1등할 수 있다.
 
+#### small lesion을 제거해서 false positive의 dice score를 1로 하는 것은 챌린지에서 우승하는데 유리하지만, 임상에서는 small lesion을 찾는게 중요하다. 따라서 postprocessing으로 small lesion을 제거해버리지 않도록 하도록 고려해야한다.
+The enhancing tumor class is arguably the most difficult to segment in this dataset. What makes this class particularly challenging is the way its evaluation is handled when the reference segmentation of an image does not contain this class. The BraTS evaluation scheme favors the removal of small enhancing tumor lesions and thus encourages such postprocessing. In a clinical scenario where the accurate detection of small enhancing tumors could be critical, this property is not necessarily desired and we recommend to omit the postprocessing presented in this manuscript.
+
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 [Multi-GPU, VRAM, BottleNeck, NVLink](https://89douner.tistory.com/157)
