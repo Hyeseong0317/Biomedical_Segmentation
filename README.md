@@ -201,9 +201,9 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/gan수식.png" width="60%">
 
-pdata(x) 원본 데이터의 distribution에서 한 개의 샘플 x를 샘플링 -> 코드상에서는 하나의 이미지를 뽑는다
+pdata(x) 원본 데이터의 distribution에서 한 개의 샘플 x를 샘플링 -> 코드상에서는 하나의 이미지를 뽑는다.
 
-pz(z) 노이즈 distribution에서 하나의 노이즈를 
+pz(z) 노이즈 distribution에서 하나의 노이즈 z를 샘프링 -> 코드상에서는 하나의 노이즈 이미지를 뽑느다.
 
 G는 V(D,G)의 값을 낮추려하고, D는 V(D,G)의 값을 높일려고 한다.
 
