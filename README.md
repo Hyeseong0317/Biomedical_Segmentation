@@ -207,6 +207,7 @@ pz(z) 노이즈 distribution에서 하나의 노이즈 z를 샘프링 -> 코드�
 
 G는 V(D,G)의 값을 낮추려하고, D는 V(D,G)의 값을 높일려고 한다.
 
+Generator에서는 InstanceNorm을 쓰는게 좋다. Instance normalization: The missing ingredient for fast stylization
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
