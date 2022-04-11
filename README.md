@@ -209,3 +209,5 @@ G는 V(D,G)의 값을 낮추려하고, D는 V(D,G)의 값을 높일려고 한다
 
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
+
+[Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
