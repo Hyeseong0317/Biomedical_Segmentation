@@ -197,4 +197,6 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
+[Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
