@@ -217,6 +217,6 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
 
-[Deep Generative Stochastic Networks Trainable by Backprop](Deep Generative Stochastic Networks Trainable by Backprop)
+[Deep Generative Stochastic Networks Trainable by Backprop](https://arxiv.org/pdf/1306.1091.pdf)
 
 [Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
