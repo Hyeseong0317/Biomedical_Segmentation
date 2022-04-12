@@ -215,4 +215,8 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
+[Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
+
+[Deep Generative Stochastic Networks Trainable by Backprop](Deep Generative Stochastic Networks Trainable by Backprop)
+
 [Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
