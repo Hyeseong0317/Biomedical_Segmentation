@@ -211,6 +211,8 @@ Generator에서는 InstanceNorm을 쓰는게 좋다. Instance normalization: The
 
 Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain mixing. -> Another advantage of adversarial networks is that they can represent very sharp, even degenerate distributions, while methods based on Markov chains require that the distribution be somewhat blurry in order for the chains to be able to mix between modes. --> Markov chains와 다르게 GAN은 samples이 uncorrelated이므로 더 sharp한 이미지를 갖는다.
 
+#### Semi-supervised learning: features from the discriminator or inference net could improve performance of classifiers when limited labeled data is available
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
