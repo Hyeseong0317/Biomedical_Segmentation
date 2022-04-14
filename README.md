@@ -228,6 +228,7 @@ and 10◦ for the second model in Figure 10.
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chair.PNG" width="40%">
 The network trained both on chairs and tables can fairly well predict views of tables from previously unseen elevation angles.
 
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
