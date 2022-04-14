@@ -258,6 +258,6 @@ The difference between (e) and (f) is that in (e) the KL-divergence term in the 
 
 Assume the problem we face is to construct a model for some unknown data-generating distribution P(X) given only examples of X drawn from that distribution. In many cases, the unknown distribution P(X) is complicated, and modeling it directly can be difficult. A recently proposed approach using denoising autoencoders transforms the difficult task of modeling P(X) into a supervised learning problem that may be much easier to solve. The basic approach is as follows: given a clean example data point X from P(X), we obtain a corrupted version X˜ by sampling from some corruption distribution C(X˜|X). For example, we might take a clean image, X, and add random white noise to produce X˜. We then use supervised learning methods to train a function to reconstruct, as accurately as possible, any X from the data set given only a noisy version X˜. As shown in Figure 1, the reconstruction distribution P(X|X˜) may often be much easier to learn than the data distribution P(X), because P(X|X˜) tends to be dominated by a single or few major modes (such as the roughly Gaussian shaped density in the figure)
 
-<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/corrupted.PNG" width="60%">
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/corrupted.PNG" width="40%">
 
 [Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
