@@ -1,5 +1,8 @@
 # CT_Segmentation
 
+Filter수를 늘리면 edge와 같이 특성들을 보는 convolution filter가 늘어난다. <-> Convolution block OR pooling수를 늘리면 Receptive field가 커진다.
+Batch Size를 늘리면 convergence가 빠르고 generalization이 된다.
+
 [SimpleITK, DICOM 다루기](http://simpleitk.org/SimpleITK-Notebooks/01_Image_Basics.html)
 
 [Batach VS Instance Normalization](https://www.baeldung.com/cs/instance-vs-batch-normalization)
