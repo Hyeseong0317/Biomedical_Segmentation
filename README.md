@@ -215,6 +215,8 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)
 
+[Learning to Generate Chairs, Tables and Cars with Convolutional Networks](https://arxiv.org/pdf/1411.5928.pdf)
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
