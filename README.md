@@ -244,6 +244,8 @@ As mentioned above, there is no principled way to perform sampling using network
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chairnetwork.PNG" width="60%">
 
+The difference between (e) and (f) is that in (e) the KL-divergence term in the loss function was weighted 10 times higher than in (f). This leads to much more diverse chairs being generated.
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
