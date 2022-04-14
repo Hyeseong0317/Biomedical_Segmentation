@@ -217,6 +217,8 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 [Learning to Generate Chairs, Tables and Cars with Convolutional Networks](https://arxiv.org/pdf/1411.5928.pdf)
 
+We found that adding a convolutional layer after each up-convolution significantly improves the quality of the generated images.
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
