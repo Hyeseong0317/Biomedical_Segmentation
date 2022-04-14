@@ -222,12 +222,13 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 We found that adding a convolutional layer after each up-convolution significantly improves the quality of the generated images.
 #### Data augmentation leads to worse reconstruction of fine details, but it is expected to lead to better generalization
 The network easily deals with extreme color-related transformations, but has more problems representing large spatial changes, especially translations.
-The performance of this nearest neighbor method is always worse than that of the network with knowledge transfer, suggesting that the network learns more than just linearly combining the known chairs, especially when many viewpoints are available in the target set. The results are shown in Figure 10. While the network trained only on chairs does not generalize to unseen elevation angles almost at all, the one trained with tables is able to generate unseen views of chairs very well. The only drawback is that the generated images do not always precisely correspond to the desired elevation, for example 0◦.
-and 10◦ for the second model in Figure 10.
+The performance of this nearest neighbor method is always worse than that of the network with knowledge transfer, suggesting that the network learns more than just linearly combining the known chairs, especially when many viewpoints are available in the target set. The results are shown in Figure 10. While the network trained only on chairs does not generalize to unseen elevation angles almost at all, the one trained with tables is able to generate unseen views of chairs very well. The only drawback is that the generated images do not always precisely correspond to the desired elevation, for example 0◦. and 10◦ for the second model in Figure 10.The network trained both on chairs and tables can fairly well predict views of tables from previously unseen elevation angles.
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chair.PNG" width="40%">
 
-The network trained both on chairs and tables can fairly well predict views of tables from previously unseen elevation angles.
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/table.PNG" width="40%">
+
+Our hypothesis is that the network trained on both object classes is forced to not only model one kind of objects, but also the general 3D geometry. This helps generating reasonable views from new elevation angles. We hypothesize that modeling even more object classes with a single network would allow to learn a universal class-independent representation of 3D shapes.
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
