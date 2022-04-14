@@ -215,14 +215,17 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)
 
+### Image Reconstruction
+
 [Learning to Generate Chairs, Tables and Cars with Convolutional Networks](https://arxiv.org/pdf/1411.5928.pdf)
 
 We found that adding a convolutional layer after each up-convolution significantly improves the quality of the generated images.
 #### Data augmentation leads to worse reconstruction of fine details, but it is expected to lead to better generalization
 The network easily deals with extreme color-related transformations, but has more problems representing large spatial changes, especially translations.
 The performance of this nearest neighbor method is always worse than that of the network with knowledge transfer, suggesting that the network learns more than just linearly combining the known chairs, especially when many viewpoints are available in the target set. The results are shown in Figure 10. While the network trained only on chairs does not generalize to unseen elevation angles almost at all, the one trained with tables is able to generate unseen views of chairs very well. The only drawback is that the generated images do not always precisely correspond to the desired elevation, for example 0◦.
-and 10◦
-for the second model in Figure 10.
+and 10◦ for the second model in Figure 10.
+
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chair.png" width="40%">
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
