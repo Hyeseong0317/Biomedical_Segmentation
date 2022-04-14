@@ -219,6 +219,7 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 We found that adding a convolutional layer after each up-convolution significantly improves the quality of the generated images.
 #### Data augmentation leads to worse reconstruction of fine details, but it is expected to lead to better generalization
+The network easily deals with extreme color-related transformations, but has more problems representing large spatial changes, especially translations. 
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
