@@ -213,6 +213,8 @@ Moreover, these samples are uncorrelated because the sampling process does not d
 
 #### Semi-supervised learning: features from the discriminator or inference net could improve performance of classifiers when limited labeled data is available
 
+[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
