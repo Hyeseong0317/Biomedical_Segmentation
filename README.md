@@ -236,6 +236,12 @@ The inter-class difference is larger than the intra-class variance, hence to suc
 
 #### By simple subtraction and addition in the feature space (FC2 features in this case) we can change an armchair into a chair with similar style, or a chair with a stick back into an identical chair with a solid back. We found that the exact layer where the arithmetic is performed does not matter: the results are basically identical when we manipulate the input style vectors, or the outputs of layers FC1 or FC2.
 
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chairnetwork.PNG" width="40%">
+
+As mentioned above, there is no principled way to perform sampling using networks trained in a supervised manner. Nonetheless there are some natural heuristics that can be used to obtain “quasi random” chairs. We can first observe that the style input of the network is a probability distribution over styles, which at training time is concentrated on a single style (i.e. c is a one-hot encoding of the chair style). However, in the interpolation experiments we have seen that the network also generates plausible images given inputs with several non-zero entries. This suggests generating random images by using random distributions as input for the network. We tried two families of distributions: (1) we computed the softmax of a Gaussian noise vector with the same size as c, with zero mean and standard deviation σ, and (2) we first randomly selected M styles, then sampled coefficient for each of them from uniform([0, 1]), then normalized to unit sum.
+
+--> one-hot encoding of the chair style --> random Gaussian noise vector --> We can create the new chair style!
+
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chair2chair.PNG" width="40%">
 
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
