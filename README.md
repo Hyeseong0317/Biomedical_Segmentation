@@ -240,7 +240,8 @@ The inter-class difference is larger than the intra-class variance, hence to suc
 
 As mentioned above, there is no principled way to perform sampling using networks trained in a supervised manner. Nonetheless there are some natural heuristics that can be used to obtain “quasi random” chairs. We can first observe that the style input of the network is a probability distribution over styles, which at training time is concentrated on a single style (i.e. c is a one-hot encoding of the chair style). However, in the interpolation experiments we have seen that the network also generates plausible images given inputs with several non-zero entries. This suggests generating random images by using random distributions as input for the network. We tried two families of distributions: (1) we computed the softmax of a Gaussian noise vector with the same size as c, with zero mean and standard deviation σ, and (2) we first randomly selected M styles, then sampled coefficient for each of them from uniform([0, 1]), then normalized to unit sum.
 
---> one-hot encoding of the chair style --> random Gaussian noise vector --> We can create the new chair style!
+### --> one-hot encoding of the chair style --> random Gaussian noise vector --> We can create the new chair style!
+(the second approach is advantageous in that it allows generating images simply from a Gaussian distribution and it is more principled, potentially promising further improvement when better optimized or combined with other kinds of stochastic networks.)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chairnetwork.PNG" width="60%">
 
