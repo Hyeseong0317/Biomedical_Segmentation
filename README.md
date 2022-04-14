@@ -232,6 +232,8 @@ Our hypothesis is that the network trained on both object classes is forced to n
 
 #### Remarkably, the generative network can not only imagine previously unseen views of a given object, but also invent new objects by interpolating between given ones. To obtain such interpolations, we simply linearly change the input label vector from one class to another.
 
+The inter-class difference is larger than the intra-class variance, hence to successfully interpolate between classes the network has to close this large gap between different classes.
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
