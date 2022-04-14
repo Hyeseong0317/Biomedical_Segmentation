@@ -234,6 +234,10 @@ Our hypothesis is that the network trained on both object classes is forced to n
 
 The inter-class difference is larger than the intra-class variance, hence to successfully interpolate between classes the network has to close this large gap between different classes.
 
+#### By simple subtraction and addition in the feature space (FC2 features in this case) we can change an armchair into a chair with similar style, or a chair with a stick back into an identical chair with a solid back. We found that the exact layer where the arithmetic is performed does not matter: the results are basically identical when we manipulate the input style vectors, or the outputs of layers FC1 or FC2.
+
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/chair2chair.PNG" width="40%">
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
