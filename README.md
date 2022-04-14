@@ -230,6 +230,8 @@ The performance of this nearest neighbor method is always worse than that of the
 
 Our hypothesis is that the network trained on both object classes is forced to not only model one kind of objects, but also the general 3D geometry. This helps generating reasonable views from new elevation angles. We hypothesize that modeling even more object classes with a single network would allow to learn a universal class-independent representation of 3D shapes.
 
+#### Remarkably, the generative network can not only imagine previously unseen views of a given object, but also invent new objects by interpolating between given ones. To obtain such interpolations, we simply linearly change the input label vector from one class to another.
+
 [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/pdf/1812.04948.pdf)
 
 [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://arxiv.org/pdf/1401.4082.pdf)
