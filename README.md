@@ -256,4 +256,6 @@ The difference between (e) and (f) is that in (e) the KL-divergence term in the 
 
 [Deep Generative Stochastic Networks Trainable by Backprop](https://arxiv.org/pdf/1306.1091.pdf)
 
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/corrupted.PNG" width="60%">
+
 [Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
