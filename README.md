@@ -198,6 +198,8 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 ### GAN
 
+[GAN 포스트](https://minsuksung-ai.tistory.com/12)
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
