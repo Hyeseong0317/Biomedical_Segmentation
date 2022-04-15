@@ -196,6 +196,14 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 [Edge-aware Fully Convolutional Network with CRF-RNN Layer for Hippocampus Segmentation](https://ieeexplore.ieee.org/abstract/document/8785801)
 
+## 생성모델과 잠재공간(임베딩공간) z (Generative Model, Latent Space z)
+
+### 고차원 --> 저차원의 잠재공간 z --> 고차원
+
+### Auto Encoder
+
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/autoencoder.PNG" width="60%">
+
 ### GAN
 
 ### 수학적으로 생성 모델의 목적은 실제 데이터 분포와 근사한 것이라고 말할 수 있다.
