@@ -198,6 +198,8 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 ### GAN
 
+### 수학적으로 생성 모델의 목적은 실제 데이터 분포와 근사한 것이라고 말할 수 있다.
+
 [GAN 포스트](https://minsuksung-ai.tistory.com/12)
 
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
