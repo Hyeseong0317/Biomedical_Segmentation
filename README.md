@@ -217,6 +217,8 @@ SEGAN: https://arxiv.org/abs/1703.09452
 
 [GAN 포스트](https://minsuksung-ai.tistory.com/12)
 
+[GAN 포스트2](https://dreamgonfly.github.io/blog/gan-explained/)
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
