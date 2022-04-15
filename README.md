@@ -250,6 +250,8 @@ DCGAN의 특징은 몇 가지로 요약할 수 있다. 먼저, 선형 레이어�
 
 ### Image Reconstruction
 
+[Learning to generate chairs with convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf)
+
 [Learning to Generate Chairs, Tables and Cars with Convolutional Networks](https://arxiv.org/pdf/1411.5928.pdf)
 
 We found that adding a convolutional layer after each up-convolution significantly improves the quality of the generated images.
