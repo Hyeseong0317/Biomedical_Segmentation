@@ -252,6 +252,8 @@ We first assume that the latent space of images can be decomposed into a content
 
 [Unsupervised Image-to-Image Translation Networks](https://arxiv.org/pdf/1703.00848.pdf)
 
+UNIT framework, which assumes a shared latent space such that corresponding images in two domains are mapped to the same latent code.
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
