@@ -226,6 +226,8 @@ StyleGAN: https://arxiv.org/pdf/1812.04948.pdf
 
 [GAN 포스트2](https://dreamgonfly.github.io/blog/gan-explained/)
 
+[Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf)
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
