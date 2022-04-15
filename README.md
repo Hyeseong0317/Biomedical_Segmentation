@@ -228,6 +228,12 @@ StyleGAN: https://arxiv.org/pdf/1812.04948.pdf
 
 [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf)
 
+multimodal이란 다양한 형태의 데이터를 입력 데이터로 사용한다는 의미이며 예를 들어 이미지와 텍스트 데이터를 동시에 사용한다는 것이다.
+
+Unsupervised img2img translation의 목적은 이미지를 보지 않고도 target 도메인에서 그에 상응하는 이미지들의 조건부 분포를 구하는 것이다 조건부 분포는 본질적으로 multimodal인데, 현재 존재하는 기법들은 너무 가정을 단순화해서 결정론적으로 one-to-one mapping한다. (결정론적 알고리즘은 예측한 그대로 동작하는 알고리즘이다. 어떤 특정한 입력이 들어오면 언제나 똑같은 과정을 거쳐서 언제나 똑같은 결과를 내놓는다.) 결론적으로 주어진 source domain image로부터 다양한 outputs을 내는 것에 실패한다.
+
+#### Unsupervised image-to-image translation is an important and challenging problem in computer vision. Given an image in the source domain, the goal is to learn the conditional distribution of corresponding images in the target domain, without seeing any examples of corresponding image pairs. While this conditional distribution is inherently multimodal, existing approaches make an overly simplified assumption, modeling it as a deterministic one-to-one mapping. As a result, they fail to generate diverse outputs from a given source domain image.
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
