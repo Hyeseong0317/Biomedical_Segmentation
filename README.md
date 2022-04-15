@@ -240,6 +240,8 @@ Unsupervised img2img translation의 목적은 이미지를 보지 않고도 targ
 #### 즉 이미지의 잠재영역(latent space)을 content space와 style space로 분해한다 가정한다. 이미지가 다른 도메인들 사이에서 공유하는 content space가 있고, style space는 공유되지 않는다 가정한다. 입력 이미지를 타겟 도메인으로 바꿀때 그 이미지의 content code와 타겟 도메인의 random style code를 재결합한다. content code는 전이되는 동안 보존되지만 style code는 입력 이미지에 포함되지 않았으며 variations를 갖는다. 다른 style code를 샘플링함으로써 다양하고 multimodal인 outputs를 출력할 수 있다.
 We first assume that the latent space of images can be decomposed into a content space and a style space. We further assume that images in different domains share a common content space but not the style space. To translate an image to the target domain, we recombine its content code with a random style code in the target style space (Fig. 1 (b)). The content code encodes the information that should be preserved during translation, while the style code represents remaining variations that are not contained in the input image. By sampling different style codes, our model is able to produce diverse and multimodal outputs.
 
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/latentspace.PNG" width="60%">
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
