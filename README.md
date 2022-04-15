@@ -1,4 +1,4 @@
-# CT_Segmentation
+# Biomedical_Segmentation
 
 Filter수를 늘리면 edge와 같이 특성들을 보는 convolution filter가 늘어난다. <-> Convolution block OR pooling수를 늘리면 Receptive field가 커진다.
 Batch Size를 늘리면 convergence가 빠르고 generalization이 된다.
