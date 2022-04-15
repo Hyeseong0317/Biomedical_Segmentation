@@ -250,6 +250,9 @@ We first assume that the latent space of images can be decomposed into a content
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/latentspace.PNG" width="60%">
 
+### 현재 존재하는 image-to-image methods의 한계는 translated outputs의 다양성 부족이다.
+A significant limitation of most existing image-to-image translation methods is the lack of diversity in the translated outputs. To tackle this problem, some works propose to simultaneously generate multiple outputs given the same input and encourage them to be different 
+
 [Unsupervised Image-to-Image Translation Networks](https://arxiv.org/pdf/1703.00848.pdf)
 
 UNIT framework, which assumes a shared latent space such that corresponding images in two domains are mapped to the same latent code.
