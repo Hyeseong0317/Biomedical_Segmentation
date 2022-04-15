@@ -234,6 +234,9 @@ Unsupervised img2img translation의 목적은 이미지를 보지 않고도 targ
 
 #### Unsupervised image-to-image translation is an important and challenging problem in computer vision. Given an image in the source domain, the goal is to learn the conditional distribution of corresponding images in the target domain, without seeing any examples of corresponding image pairs. While this conditional distribution is inherently multimodal, existing approaches make an overly simplified assumption, modeling it as a deterministic one-to-one mapping. As a result, they fail to generate diverse outputs from a given source domain image.
 
+#### 이미지 표현을 도메인 불변인 content code와 도메인에 특별한 특성을 갖는 style code로 분해가 가능하다 가정한다. 이미지를 다른 도메인으로 전이시키기위해 content code와 타켓 도메인의 style space에서 샘플된 random style code를 재결합한다.
+#### We assume that the image representation can be decomposed into a content code that is domain-invariant, and a style code that captures domain-specific properties. To translate an image to another domain, we recombine its content code with a random style code sampled from the style space of the target domain.
+
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
