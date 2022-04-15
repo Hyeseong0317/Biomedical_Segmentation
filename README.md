@@ -215,6 +215,12 @@ StarGAN: https://arxiv.org/abs/1711.09020
 SRGAN: https://arxiv.org/abs/1609.04802
 SEGAN: https://arxiv.org/abs/1703.09452
 
+### entangle
+서로 얽혀 있는 상태여서 특징 구분이 어려운 상태. 즉, 각 특징들이 서로 얽혀있어서 구분이 안됨
+### disentangle
+각 style들이 잘 구분 되어있는 상태여서 어느 방향으로 가면 A라는 특징이 변하고 B라는 특징이 변하게 되어서 특징들이 잘 분리가 되어있다는 의미.
+선형적으로 변수를 변경했을 때 어떤 결과물의 feature인지 예측할 수 있는 상태.
+
 [GAN 포스트](https://minsuksung-ai.tistory.com/12)
 
 [GAN 포스트2](https://dreamgonfly.github.io/blog/gan-explained/)
