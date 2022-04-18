@@ -281,7 +281,9 @@ Evaluating the quality of synthesized images is an open and difficult problem [3
 
 --> [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf) inception score 
 
+--> [Generative Image Modeling using Style and Structure Adversarial Networks](https://arxiv.org/pdf/1603.05631.pdf) the object detection evaluation in [39]
 
+--> [Colorful image colorization](https://arxiv.org/pdf/1603.08511.pdf) the “semantic interpretability” measure in [46]
 
 [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685.pdf)
 
