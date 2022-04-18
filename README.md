@@ -1,5 +1,23 @@
 # Biomedical_Segmentation
 
+## 학회
+
+NIPS(Neural Information Processing Systems) 신경정보처리시스템학회
+
+MICCAI(Medical Image Computing Computed Assisted Interventions) 국제의료영상컴퓨팅 및 인터벤션 학술대회
+
+IEEE(Institute of Electrical and Electronics Engineers) 국제전기전자기술협회
+
+MIC(Medical Imaging Conference) 
+
+ISBI(IEEE Symposium on Biomedical Imaging)
+
+ISMRM(International Society for Magnetic Resonance Imaging) 국제자기공명의과학회
+
+NSS(Nuclear Science Symposium)
+
+### 논문 및 아이디어
+
 Filter수를 늘리면 edge와 같이 특성들을 보는 convolution filter가 늘어난다. <-> Convolution block OR pooling수를 늘리면 Receptive field가 커진다.
 Batch Size를 늘리면 convergence가 빠르고 generalization이 된다.
 
