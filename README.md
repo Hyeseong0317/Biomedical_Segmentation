@@ -262,7 +262,7 @@ UNIT framework, which assumes a shared latent space such that corresponding imag
 
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
-[Context Encoders: Feature Learning by Inpainting](https://arxiv.org/pdf/1604.07379.pdf)
+[The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685.pdf)
 
 #### GAN의 목적함수에 L2 distance를 섞어주면 좋은 효과가 있다. 구별자의 역할음 변함없고, 단 생성자는 구별자를 속이는 것뿐만 아니라 생성자가 만들어낸 output 가짜이미지를 L2 손실에서 ground truth에 가깝도록 학습한다.
 
@@ -278,6 +278,8 @@ Despite the dropout noise, we observe very minor stochasticity in the output of 
 
 #### L2와 L1은 blurry한 image를 생성한다. Highfrequency는 잘 못잡는 반면에 low frequencies는 정확하게 잡아낸다. L1 또는 L2 loss를 사용하면 low frequencies를 잡는데 새로운 프레임워크를 필요로 하지 않는다. GAN의 구별자가 high-frequency structure에만 집중하도록 구성할 수 있다. high-frequencies를 잡는 것에 attention을 줌으로써 local image patches에서 high-frequencies 특성을 잡을 수 있다. 이를 PatchGAN을 통해 수행할 수 있다. (Loss 구성시 매우 좋은 아이디어)
 It is well known that the L2 loss – and L1, see Figure 4 – produces blurry results on image generation problems [22]. Although these losses fail to encourage highfrequency crispness, in many cases they nonetheless accurately capture the low frequencies. For problems where this is the case, we do not need an entirely new framework to enforce correctness at the low frequencies. L1 will already do. This motivates restricting the GAN discriminator to only model high-frequency structure, relying on an L1 term to force low-frequency correctness (Eqn. 4). In order to model high-frequencies, it is sufficient to restrict our attention to the structure in local image patches.
+
+[Context Encoders: Feature Learning by Inpainting](https://arxiv.org/pdf/1604.07379.pdf)
 
 [Autoencoding beyond pixels using a learned similarity metric](https://arxiv.org/pdf/1512.09300.pdf)
 
