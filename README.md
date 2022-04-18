@@ -289,6 +289,8 @@ Evaluating the quality of synthesized images is an open and difficult problem [3
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/Unet&encoderdecoder.PNG" width="60%">
 
+--> Color histogram matching is a common problem in image processing [33], and PixelGANs may be a promising lightweight solution.
+
 [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685.pdf)
 
 [Context Encoders: Feature Learning by Inpainting](https://arxiv.org/pdf/1604.07379.pdf)
