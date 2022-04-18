@@ -267,6 +267,9 @@ Previous approaches to conditional GANs have found it beneficial to mix the GAN 
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GANobjectiveL1.PNG" width="60%">
 
+#### GAN은 random gaussian noise z가 없는 경우 x를 넣으면 y로 결정적으로 출력하므로(= 입력이 x이면 무조건 출력이 y로 나오므로) overfitting문제가 발생하며 함수로 표현하는 경우 어떠한 입력분포에 대해서라도 출력분포가 delta function으로 매핑되버린다.
+Without z, the net could still learn a mapping from x to y, but would produce deterministic outputs, and therefore fail to match any distribution other than a delta function.
+
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/gan수식.png" width="60%">
