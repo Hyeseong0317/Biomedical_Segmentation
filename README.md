@@ -270,6 +270,9 @@ Previous approaches to conditional GANs have found it beneficial to mix the GAN 
 #### GAN은 random gaussian noise z가 없는 경우 x를 넣으면 y로 결정적으로 출력하므로(= 입력이 x이면 무조건 출력이 y로 나오므로) overfitting문제가 발생하며 함수로 표현하는 경우 어떠한 입력분포에 대해서라도 출력분포가 delta function으로 매핑되버린다.
 Without z, the net could still learn a mapping from x to y, but would produce deterministic outputs, and therefore fail to match any distribution other than a delta function.
 
+#### cGANs을 설계시 확률적인 output을 내도록 디자인하는 것이 중요하다. 그럼으로써 조건분포 전체 entropy를 잡아낼 수 있으며 이는 중요한 문제로 현재 남아있다. 모델의 출력이 샘플로 추출한 표본분포에 편향되어 학습하는 경우, 새로운 표본분포에 대해서는 성능이 떨어진다. 따라서 모델의 출력이 결정적으로 나오는 것이 아니라 모집단의 분포를 따라갈 수 있도록 확률적으로 설계해야만 한다.
+Despite the dropout noise, we observe very minor stochasticity in the output of our nets. Designing conditional GANs that produce stochastic output, and thereby capture the full entropy of the conditional distributions they model, is an important question left open by the present work.
+
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/gan수식.png" width="60%">
