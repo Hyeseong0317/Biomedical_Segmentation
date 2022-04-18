@@ -265,6 +265,8 @@ UNIT framework, which assumes a shared latent space such that corresponding imag
 
 Previous approaches to conditional GANs have found it beneficial to mix the GAN objective with a more traditional loss, such as L2 distance. The discriminator’s job remains unchanged, but the generator is tasked to not only fool the discriminator but also to be near the ground truth output in an L2 sense. We also explore this option, using L1 distance rather than L2 as L1 encourages less blurring:
 
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GANobjectiveL1.PNG" width="60%">
+
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/gan수식.png" width="60%">
