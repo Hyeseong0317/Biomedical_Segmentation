@@ -270,6 +270,9 @@ We further believe that our investigations to the separation of high-level attri
 
 [Patch-Based Image Inpainting with Generative Adversarial Networks](https://arxiv.org/pdf/1803.07422.pdf)
 
+#### 유클리디안 거리는 이미지의 정보를 측정하고 비교하는데 쓰이지만 보통 possible intensity value들의 평균에 수렴하므로 흐릿한 이미지를 출력하는 경향이 있다. GAN은 objective function을 새로 정의함으로써 이 문제를 해결했다.
+Primitive objective functions like Euclidean Distance assist in measuring and comparing information on the general structure of the images, however, they tend to converge to the mean of possible intensity values that cause blurry outputs. In order to solve this challenging problem, Goodfellow et al. proposed Generative Adversarial Networks (GAN) [7], which is a synthesis model trained based on a comparison of real images with generated outputs.
+
 [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf)
 
 multimodal이란 다양한 형태의 데이터를 입력 데이터로 사용한다는 의미이며 예를 들어 이미지와 텍스트 데이터를 동시에 사용한다는 것이다.
