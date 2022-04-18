@@ -261,9 +261,9 @@ UNIT framework, which assumes a shared latent space such that corresponding imag
 
 [Context Encoders: Feature Learning by Inpainting](https://arxiv.org/pdf/1604.07379.pdf)
 
-#### GAN의 목적함수에 L2 distance를 섞어주면 좋은 효과가 있다.
+#### GAN의 목적함수에 L2 distance를 섞어주면 좋은 효과가 있다. 구별자의 역할음 변함없고, 단 생성자는 구별자를 속이는 것뿐만 아니라 생성자가 만들어낸 output 가짜이미지를 L2 손실에서 ground truth에 가깝도록 학습한다.
 
-Previous approaches to conditional GANs have found it beneficial to mix the GAN objective with a more traditional loss, such as L2 distance.
+Previous approaches to conditional GANs have found it beneficial to mix the GAN objective with a more traditional loss, such as L2 distance. The discriminator’s job remains unchanged, but the generator is tasked to not only fool the discriminator but also to be near the ground truth output in an L2 sense. We also explore this option, using L1 distance rather than L2 as L1 encourages less blurring:
 
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 
