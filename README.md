@@ -9,6 +9,9 @@ Batch Size를 늘리면 convergence가 빠르고 generalization이 된다.
 
 [Instance Normalization: The Missing Ingredient for Fast Stylization](https://arxiv.org/pdf/1607.08022.pdf)
 
+### Image Generation에서는 Instance Normalization을 쓰는게 효과적으로 알려져있다.
+This approach to batch normalization, when the batch size is set to 1, has been termed “instance normalization” and has been demonstrated to be effective at image generation tasks.
+
 [Rectifier Nonlinearities Improve Neural Network Acoustic Models](https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf)
 
 #### Leaky ReLU와 ReLU의 큰 차이는 없다. Sigmoidal보다는 Rectified activation function을 쓴다. ReLU를 사용함으로써 Sigmoid가 -1, 1부근에서 gradient가 0으로 수렴하여 hidden layer의 가중치가 업데이트되지 않는 gradient vanishing 문제를 해결할 수 있다.
