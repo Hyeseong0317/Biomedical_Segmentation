@@ -285,6 +285,10 @@ Evaluating the quality of synthesized images is an open and difficult problem [3
 
 --> [Colorful image colorization](https://arxiv.org/pdf/1603.08511.pdf) the “semantic interpretability” measure in [46]
 
+#### Encoder Decoder + skip connection = U-Net
+
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/Unet&encoderdecoder.png" width="60%">
+
 [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685.pdf)
 
 [Context Encoders: Feature Learning by Inpainting](https://arxiv.org/pdf/1604.07379.pdf)
