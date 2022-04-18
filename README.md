@@ -250,6 +250,9 @@ StyleGAN: https://arxiv.org/pdf/1812.04948.pdf
 #### Latent Space -> 직관적으로 less curved latent space가 highly curved latent space보다 지각적으로 더 부드러운 변환을 한다.
 As noted by Laine [37], interpolation of latent-space vectors may yield surprisingly non-linear changes in the image. For example, features that are absent in either endpoint may appear in the middle of a linear interpolation path. This is a sign that the latent space is entangled and the factors of variation are not properly separated. To quantify this effect, we can measure how drastic changes the image undergoes as we perform interpolation in the latent space. Intuitively, a less curved latent space should result in perceptually smoother transition than a highly curved latent space.
 
+#### Linear Seperability -> Latent Space가 충분히 disentagled되어있으면 latent space를 linear hyperplane을 통해 2개의 구별되는 subsets으로 나눌 수 있다.
+If a latent space is sufficiently disentangled, it should be possible to find direction vectors that consistently correspond to individual factors of variation. We propose another metric that quantifies this effect by measuring how well the latent-space points can be separated into two distinct sets via a linear hyperplane, so that each set corresponds to a specific binary attribute of the image.
+
 [Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 
 ### entangle
