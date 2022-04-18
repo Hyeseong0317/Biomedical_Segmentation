@@ -244,6 +244,9 @@ SRGAN: https://arxiv.org/abs/1609.04802
 SEGAN: https://arxiv.org/abs/1703.09452
 StyleGAN: https://arxiv.org/pdf/1812.04948.pdf
 
+#### StyleGAN 
+#### If the network tried to control, e.g., pose using the noise, that would lead to spatially inconsistent decisions that would then be penalized by the discriminator. Thus the network learns to use the global and local channels appropriately, without explicit guidance.
+
 [Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 
 ### entangle
