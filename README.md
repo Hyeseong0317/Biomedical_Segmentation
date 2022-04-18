@@ -244,6 +244,8 @@ SRGAN: https://arxiv.org/abs/1609.04802
 SEGAN: https://arxiv.org/abs/1703.09452
 StyleGAN: https://arxiv.org/pdf/1812.04948.pdf
 
+[Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
+
 ### entangle
 서로 얽혀 있는 상태여서 특징 구분이 어려운 상태. 즉, 각 특징들이 서로 얽혀있어서 구분이 안됨
 ### disentangle
