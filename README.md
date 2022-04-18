@@ -180,7 +180,6 @@ The important part of the architecture, which allows us to train on sparse annot
 
 #### In this experiment BN also improves the result, except for the third setting, where it was counterproductive. We think that the large differences in the data sets are responsible for this effect. The typical use case for the fully-automated segmentation will work on much larger sample sizes, where the same number of sparse labels could be easily distributed over much more data sets to obtain a more representative training data set. (BatchNorm3d가 오히려 성능을 떨어뜨리는 이유)
 
-
 [Image Segmentation with Cascaded Hierarchical Models and Logistic Disjunctive Normal Networks](https://ieeexplore.ieee.org/document/6751380)
 
 [Hypercolumns for Object Segmentation and Fine-grained Localization](https://arxiv.org/pdf/1411.5752.pdf)
@@ -280,7 +279,7 @@ It is well known that the L2 loss – and L1, see Figure 4 – produces blurry r
 #### 합성된 이미지의 퀄리티를 평가하는건 아직 어려운 문제로 남아있다.
 Evaluating the quality of synthesized images is an open and difficult problem [36]. Traditional metrics such as perpixel mean-squared error do not assess joint statistics of the result, and therefore do not measure the very structure that structured losses aim to capture.
 
---> [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
+--> [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf) inception score 
 
 
 
