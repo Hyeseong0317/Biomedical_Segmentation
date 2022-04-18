@@ -259,6 +259,12 @@ UNIT framework, which assumes a shared latent space such that corresponding imag
 
 [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
 
+[Context Encoders: Feature Learning by Inpainting](https://arxiv.org/pdf/1604.07379.pdf)
+
+#### GAN의 목적함수에 L2 distance를 섞어주면 좋은 효과가 있다.
+
+Previous approaches to conditional GANs have found it beneficial to mix the GAN objective with a more traditional loss, such as L2 distance.
+
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/gan수식.png" width="60%">
