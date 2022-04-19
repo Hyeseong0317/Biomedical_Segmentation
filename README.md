@@ -1,6 +1,6 @@
 # Biomedical_Segmentation
 
-### Stride, Upsampling, Resolution Idea
+### Convolution, Stride, Upsampling, Resolution Idea
 
 [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 
