@@ -293,6 +293,10 @@ Then, the style transfer method of [20] is used, which forces features of the sm
 
 [Semantic Image Inpainting with Deep Generative Models](https://arxiv.org/pdf/1607.07539.pdf)
 
+[Generative Face Completion](https://arxiv.org/pdf/1704.05838.pdf)[21]
+
+In [21], LGAN pushes the generative network to produce independent textures that are incompatible with the whole image semantics.
+
 [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf)
 
 multimodal이란 다양한 형태의 데이터를 입력 데이터로 사용한다는 의미이며 예를 들어 이미지와 텍스트 데이터를 동시에 사용한다는 것이다.
