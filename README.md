@@ -6,6 +6,18 @@
 
 [Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
 
+[Deep generative image models using a laplacian pyramid of adversarial networks](https://arxiv.org/pdf/1506.05751.pdf)
+
+[Image superresolution using deep convolutional networks, 2015](https://arxiv.org/pdf/1501.00092.pdf)
+
+[Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks. In Advances in Neural Information Processing Systems (NIPS)](https://arxiv.org/pdf/1505.07376.pdf)
+
+[Understanding deep image representations by inverting them. In IEEE Conf. on Comp. Vision and Pattern Recognition (CVPR), 2015](https://arxiv.org/pdf/1412.0035.pdf)
+
+[L. Xu, J. S. Ren, C. Liu, and J. Jia. Deep convolutional neural network for image deconvolution. In Advances in Neural Information Processing Systems (NIPS) 27, pages 1790–1798. 2014.](https://proceedings.neurips.cc/paper/2014/file/1c1d4df596d01da60385f0bb17a4a9e0-Paper.pdf)
+
+[M. D. Zeiler and R. Fergus. Visualizing and understanding convolutional networks. In Proc. Europ. Conf. Comp. Vision (ECCV), pages 818–833, 2014.](https://arxiv.org/pdf/1311.2901.pdf)
+
 ## 학회
 
 NIPS(Neural Information Processing Systems) 신경정보처리시스템학회
