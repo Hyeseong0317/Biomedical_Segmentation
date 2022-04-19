@@ -316,7 +316,7 @@ Intra- 클래스 내부의 분산이 어떤가
 
 Inter- 클래스간 분산이 어떠냐
 
-
+#### orthognal : statistically independent, 확률적으로 
 
 [Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks](https://arxiv.org/pdf/1505.07376.pdf)
 
