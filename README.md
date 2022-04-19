@@ -232,6 +232,8 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 [Auto-encoding variational bayes](https://arxiv.org/pdf/1312.6114.pdf)
 
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/Taxonomyofdeepgenerativemodels.PNG" width="60%">
+
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/autoencoder.PNG" width="60%">
 
 ### GAN
