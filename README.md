@@ -307,6 +307,11 @@ Then, the style transfer method of [20] is used, which forces features of the sm
 ### Markov Random Fields, dCNNs는 지역적으로 상관된 정보와 입력의 위치가 변해도 출력이 변하지 않는 translational invariance에 의존한다.
 Our paper augments their framework by replacing the bag-of-feature-like statistics of Gram-matrix-matching by an MRF regularizer that maintains local patterns of the “style” exemplar: MRFs and dCNNs are a canonical combination — both models crucially rely on the assumption of locally correlated information and translational invariance.
 
+### Intra-class variation VS Inter-class variation
+Intra- 클래스 내부의 분산이 어떤가
+
+Inter- 클래스간 분산이 어떠냐
+
 [Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks](https://arxiv.org/pdf/1505.07376.pdf)
 
 [Context encoders:feature learning by inpainting](https://arxiv.org/pdf/1604.07379.pdf)
