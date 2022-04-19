@@ -285,7 +285,9 @@ We further believe that our investigations to the separation of high-level attri
 #### 유클리디안 거리는 이미지의 정보를 측정하고 비교하는데 쓰이지만 보통 possible intensity value들의 평균에 수렴하므로 흐릿한 이미지를 출력하는 경향이 있다. GAN은 objective function을 새로 정의함으로써 이 문제를 해결했다.
 Primitive objective functions like Euclidean Distance assist in measuring and comparing information on the general structure of the images, however, they tend to converge to the mean of possible intensity values that cause blurry outputs. In order to solve this challenging problem, Goodfellow et al. proposed Generative Adversarial Networks (GAN) [7], which is a synthesis model trained based on a comparison of real images with generated outputs.
 
-[Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis](https://arxiv.org/pdf/1601.04589.pdf)
+[Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis](https://arxiv.org/pdf/1601.04589.pdf)[20]
+
+Then, the style transfer method of [20] is used, which forces features of the small patches from the masked area to be close to those of the undamaged region to improve texture details.
 
 [Context encoders:feature learning by inpainting](https://arxiv.org/pdf/1604.07379.pdf)
 
