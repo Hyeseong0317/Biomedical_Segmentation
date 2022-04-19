@@ -304,6 +304,9 @@ We introduce a generative CNN model and a training procedure for the arbitrary a
 
 Then, the style transfer method of [20] is used, which forces features of the small patches from the masked area to be close to those of the undamaged region to improve texture details.
 
+### Markov Random Fields, dCNNs는 지역적으로 상관된 정보와 입력의 위치가 변해도 출력이 변하지 않는 translational invariance에 의존한다.
+Our paper augments their framework by replacing the bag-of-feature-like statistics of Gram-matrix-matching by an MRF regularizer that maintains local patterns of the “style” exemplar: MRFs and dCNNs are a canonical combination — both models crucially rely on the assumption of locally correlated information and translational invariance.
+
 [Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks](https://arxiv.org/pdf/1505.07376.pdf)
 
 [Context encoders:feature learning by inpainting](https://arxiv.org/pdf/1604.07379.pdf)
