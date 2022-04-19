@@ -304,13 +304,15 @@ We introduce a generative CNN model and a training procedure for the arbitrary a
 
 Then, the style transfer method of [20] is used, which forces features of the small patches from the masked area to be close to those of the undamaged region to improve texture details.
 
-### Markov Random Fields, dCNNs는 지역적으로 상관된 정보와 입력의 위치가 변해도 출력이 변하지 않는 translational invariance에 의존한다.
-Our paper augments their framework by replacing the bag-of-feature-like statistics of Gram-matrix-matching by an MRF regularizer that maintains local patterns of the “style” exemplar: MRFs and dCNNs are a canonical combination — both models crucially rely on the assumption of locally correlated information and translational invariance.
+### Markov Random Fields, dCNNs는 지역적으로 상관된 정보와 입력의 위치가 변해도 출력이 변하지 않는 translational invariance에 의존한다. Local patches는 objects를 설명하기위한 특징맵의 특징적인 배치를 갖는다. 그리고 해상도를 높여 인코딩할수록 클래스 내부의 분산은 불변에 가까워진다.
+Our paper augments their framework by replacing the bag-of-feature-like statistics of Gram-matrix-matching by an MRF regularizer that maintains local patterns of the “style” exemplar: MRFs and dCNNs are a canonical combination — both models crucially rely on the assumption of locally correlated information and translational invariance. This equips the encoding of features in a dCNN with approximate Markovian consistency properties: Local patches have characteristic arrangements of feature activations to describe objects, and higher-up encoding becomes more invariant under in-class variation (Figure 2).
 
 ### Intra-class variation VS Inter-class variation
 Intra- 클래스 내부의 분산이 어떤가
 
 Inter- 클래스간 분산이 어떠냐
+
+
 
 [Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks](https://arxiv.org/pdf/1505.07376.pdf)
 
