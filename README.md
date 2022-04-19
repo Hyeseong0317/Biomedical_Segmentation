@@ -1,5 +1,7 @@
 # Biomedical_Segmentation
 
+[Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
+
 ## 학회
 
 NIPS(Neural Information Processing Systems) 신경정보처리시스템학회
