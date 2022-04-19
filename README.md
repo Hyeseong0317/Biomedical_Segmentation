@@ -314,6 +314,12 @@ It is clear that patch matching using pixels or neural activation at the lower l
 Here, two networks, one as the discriminator and other as the generator iteratively improve each other by playing a minnimax game. In the end the generator is able to produces more natural images than naive image synthesis. However, in many cases the output quality is still rather limited. Gauthier et al. [10] extend this model
 by a Laplacian pyramid. This leads to clear improvement on output quality. Nonetheless, training for large images remains expensive and the results often still lack structure. Denton et al. [4] extend the model to a conditional setting, limited to generating faces. It is also possible to re-train networks for specific generative tasks, such as image deblur [28], super-resolution [5], and class visualization [19].
 
+#### MRF는 style과 content iamges가 perspective, size, shape에서 비슷한 elements들로 이루어져있을 때 이점이 있다. Content와 style images의 눈으로 봤을 때 구조가 많이 다르면 artifacts가 일어날 수 있다.
+The MRF prior only offers advantages when style and content images consists of similarly shaped elements without strong changes in perspective, size, or shape, as covered by the invariance of the high-level neural encoding. Otherwise, artifacts might occur. For pure artistic styles, the increased rigidity can then be a disadvantage.
+
+### Rigidity
+In mathematics, a rigid collection C of mathematical objects (for instance sets or functions) is one in which every c ∈ C is uniquely determined by less information about c than one would expect.
+
 ### Intra-class variation VS Inter-class variation
 Intra- 클래스 내부의 분산이 어떤가
 
