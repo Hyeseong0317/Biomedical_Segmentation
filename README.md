@@ -292,6 +292,8 @@ We introduce a generative CNN model and a training procedure for the arbitrary a
 
 Then, the style transfer method of [20] is used, which forces features of the small patches from the masked area to be close to those of the undamaged region to improve texture details.
 
+[Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks](https://arxiv.org/pdf/1505.07376.pdf)
+
 [Context encoders:feature learning by inpainting](https://arxiv.org/pdf/1604.07379.pdf)
 
 [Semantic Image Inpainting with Deep Generative Models](https://arxiv.org/pdf/1607.07539.pdf)
