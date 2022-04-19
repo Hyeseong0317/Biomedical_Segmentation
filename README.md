@@ -289,6 +289,8 @@ Primitive objective functions like Euclidean Distance assist in measuring and co
 
 [Context encoders:feature learning by inpainting](https://arxiv.org/pdf/1604.07379.pdf)
 
+[Semantic Image Inpainting with Deep Generative Models](https://arxiv.org/pdf/1607.07539.pdf)
+
 [Multimodal Unsupervised Image-to-Image Translation](https://arxiv.org/pdf/1804.04732.pdf)
 
 multimodal이란 다양한 형태의 데이터를 입력 데이터로 사용한다는 의미이며 예를 들어 이미지와 텍스트 데이터를 동시에 사용한다는 것이다.
