@@ -1,6 +1,10 @@
 # Biomedical_Segmentation
 
+### Stride, Upsampling, Resolution Idea
+
 [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
+
+[Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
 
 ## 학회
 
