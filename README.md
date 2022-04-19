@@ -317,7 +317,7 @@ Intra- 클래스 내부의 분산이 어떤가
 Inter- 클래스간 분산이 어떠냐
 
 #### orthognal : statistically independent, 확률적으로 독립
-ex) learning of global layout constraints is mostly orthogonal to our approach. 우리의 approach와 global layout 제한들을 배우는 것은 거의 독립적인 관계이다. 서로 상관이 없다.
+ex) learning of global layout constraints is mostly orthogonal to our approach. 우리의 approach와 global layout 제한들을 배우는 것은 대부분 독립적인 관계이다. 서로 상관이 없다.
 
 [Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks](https://arxiv.org/pdf/1505.07376.pdf)
 
