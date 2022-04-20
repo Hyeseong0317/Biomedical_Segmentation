@@ -248,6 +248,8 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/latentvariablez.jpg" width="60%">
 
+[GAN paper 유튜브 강의](youtube.com/watch?v=kLDuxRtxGD8&t=235s)
+
 Q의 정의 : 어떤 우리가 정의하고자하는 z값을 줬을 때, x 이미지를 내보내는 모델
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해1.jpg" width="40%">
@@ -255,6 +257,10 @@ Q의 정의 : 어떤 우리가 정의하고자하는 z값을 줬을 때, x 이�
 Discriminator가 data distribution과 model distribution을 구별할 수 없는 상태까지 학습됨. 파란 점선의 값은 1/2로 converge. 즉 Discriminator가 진짜와 가짜를 구별하지 못하는 상태가 된다.
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해2.PNG" width="40%">
+
+GAN의 perceptual 측정지표로 Inception score를 쓰며, 이 score는 Google Inception(GoogleLeNet)에서 classfication해주는 모델 사용
+
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/inceptionscore.jpg" width="40%">
 
 [Auto-encoding variational bayes](https://arxiv.org/pdf/1312.6114.pdf)
 
