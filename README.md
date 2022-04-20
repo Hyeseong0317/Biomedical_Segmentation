@@ -244,7 +244,7 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 [VAE 유튜브 설명](https://www.youtube.com/watch?v=kLDuxRtxGD8&t=235s)
 
-이미지를 줬을 때, latent variable z를 만들어낸다. (파란밑줄)
+이미지를 줬을 때, latent variable z를 만들어내는 . (파란밑줄)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/latentvariablez.jpg" width="60%">
 
