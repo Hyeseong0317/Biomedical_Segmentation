@@ -254,7 +254,7 @@ Q의 정의 : 어떤 우리가 정의하고자하는 z값을 줬을 때, x 이�
 
 Discriminator가 data distribution과 model distribution을 구별할 수 없는 상태까지 학습됨. 파란 점선의 값은 1/2로 converge. 즉 Discriminator가 진짜와 가짜를 구별하지 못하는 상태가 된다.
 
-<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해2.jpg" width="40%">
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해2.PNG" width="40%">
 
 [Auto-encoding variational bayes](https://arxiv.org/pdf/1312.6114.pdf)
 
