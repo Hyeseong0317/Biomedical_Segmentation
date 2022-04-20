@@ -419,6 +419,8 @@ Evaluating the quality of synthesized images is an open and difficult problem [3
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/gan수식.png" width="60%">
 
+Expectation은 probability값을 곱해준다고 생각하면 된다. -> 상수라고 생각할 수 있다.
+
 pdata(x) 원본 데이터의 distribution에서 한 개의 샘플 x를 샘플링 -> 코드상에서는 하나의 이미지를 뽑는다.
 
 pz(z) 노이즈 distribution에서 하나의 노이즈 z를 샘프링 -> 코드상에서는 하나의 노이즈 이미지를 뽑다.
