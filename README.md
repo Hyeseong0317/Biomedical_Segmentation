@@ -242,6 +242,8 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 [초짜 대학원생의 입장에서 이해하는 Auto-Encoding Variational Bayes (VAE) (1)](https://jaejunyoo.blogspot.com/2017/04/auto-encoding-variational-bayes-vae-1.html)
 
+[VAE 유튜브 설명](https://www.youtube.com/watch?v=kLDuxRtxGD8&t=235s)
+
 [Auto-encoding variational bayes](https://arxiv.org/pdf/1312.6114.pdf)
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/Taxonomyofdeepgenerativemodels.PNG" width="60%">
