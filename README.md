@@ -252,6 +252,8 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 ### 수학적으로 생성 모델의 목적은 실제 데이터 분포와 근사한 것이라고 말할 수 있다.
 
+[초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (2)](https://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-2.html)
+
 GAN: https://arxiv.org/abs/1406.2661
 DCGAN: https://arxiv.org/abs/1511.06434
 cGAN: https://arxiv.org/abs/1611.07004
