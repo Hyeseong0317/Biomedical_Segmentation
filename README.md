@@ -246,11 +246,11 @@ This distinction is rather challenging as borders are often fuzzy, and also beca
 
 이미지를 줬을 때, latent variable z를 만들어내는 . (파란밑줄)
 
-<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해1.jpg" width="0%">
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/latentvariablez.jpg" width="60%">
 
 Q의 정의 : 어떤 우리가 정의하고자하는 z값을 줬을 때, x 이미지를 내보내는 모델
 
-<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/latentvariablez.jpg" width="60%">
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해1.jpg" width="40%">
 
 [Auto-encoding variational bayes](https://arxiv.org/pdf/1312.6114.pdf)
 
