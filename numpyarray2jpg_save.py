@@ -1,3 +1,7 @@
+# Image.fromarray is poorly defined with floating-point input; it's not well documented but the function assumes the input is laid-out as unsigned 8-bit integers.
+# To produce the output you're trying to get, multiply by 255 and convert to uint8:
+z = (z * 255).astype(np.uint8)
+
 # numpy to jpg
 from PIL import Image
 im = Image.fromarray(A)
