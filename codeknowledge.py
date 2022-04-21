@@ -43,6 +43,20 @@ class Generator(nn.Module):
     def forward(self, input):
         return self.main(input)
     
+# Create the generator
+netG = Generator(ngpu).to(device)
+
+# Handle multi-gpu if desired
+if (device.type == 'cuda') and (ngpu > 1):
+    netG = nn.DataParallel(netG, list(range(ngpu)))
+
+# Apply the weights_init function to randomly initialize all weights
+#  to mean=0, stdev=0.02.
+netG.apply(weights_init)
+
+# Print the model
+print(netG)
+    
     class Discriminator(nn.Module):
     def __init__(self, ngpu):
         super(Discriminator, self).__init__()
@@ -69,3 +83,17 @@ class Generator(nn.Module):
         )
 
     def forward(self, input):
+
+# Create the Discriminator
+netD = Discriminator(ngpu).to(device)
+
+# Handle multi-gpu if desired
+if (device.type == 'cuda') and (ngpu > 1):
+    netD = nn.DataParallel(netD, list(range(ngpu)))
+
+# Apply the weights_init function to randomly initialize all weights
+#  to mean=0, stdev=0.2.
+netD.apply(weights_init)
+
+# Print the model
+print(netD)
