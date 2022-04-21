@@ -258,7 +258,14 @@ Discriminator가 data distribution과 model distribution을 구별할 수 없는
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해2.PNG" width="40%">
 
-minmax Game 수식 이해, 기댓값의 정의에 의해 expectation은 probability 곱하기 x에서의 sampling 값입니다.
+#### minmax Game 수식 이해, 기댓값의 정의에 의해 expectation은 probability 곱하기 x에서의 sampling 값입니다. 
+
+G(z)는 임의의 distribution(보통 gaussian distribution, 가우시안 확률분포)에서 샘플링한 z이미지를 통해 Generator가 생성한 이미지입니다.
+
+#### KL divergence는 두 확률분포 사이의 차이가 얼마나나는지를 측정하는 척도로 거리개념이 아닙니다. KL divergence는 Cross-entropy에서 entropy를 뺀 값인 예시로 들자면, Cross entropy는 아무리 낮아져봤자 entropy가 lower bound이므로 KL divergence는 항상 양의 값을 가지게 됩니다.
+
+#### C(G)의 Global minimum을 구하는 경우, 하나의 예시로 V(G,D) objective function에서 D는 optimal로 고정한 상태에서 C(G)를 구하는 것이라 생각해볼 수 있습니다. (엄밀히 따지면 이는 Subset에서 하나의 예시를 구한 것이므로 D를 optimal로 고정한 상태라고 볼 수는 없습니다, 정확히는 다양한 D를 가지는 Subset에 대해 각각의 C(G)의 Global minumum을 구합니다.)
+minmax는 kl divergence, jensen shannon divergence의 정의를 활용하여 C(G)의 수식을 전개하면 -log(4)에서 global minimum(=최적점)을 가지며 이때 Data distribution과 Model distribution이 같아져 Discriminator가 진짜와 가짜를 구별할 수 없는 상태가 됩니다. Discriminator는 1/2의 확률로 받은 이미지가 data dirstribution에서 받은 이미지, 1/2의 확률로 받은 이미지가 model distribution에서 받은 이미지라 구별합니다. 이는 Data distribution과 model distribution 모두 확률분포에서 샘플링된 값이므로 Discriminator도 그래프상에서 확률분포의 형태로 나타나는 것을 관찰할 수 있습니다.
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/minmaxgame기댓값.jpg" width="40%">
 
