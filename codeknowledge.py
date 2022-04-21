@@ -97,3 +97,21 @@ netD.apply(weights_init)
 
 # Print the model
 print(netD)
+
+
+torch.randn(*size, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False) → Tensor
+
+# Initialize BCELoss function
+criterion = nn.BCELoss()
+
+# Create batch of latent vectors that we will use to visualize
+#  the progression of the generator
+fixed_noise = torch.randn(64, nz, 1, 1, device=device)
+
+# Establish convention for real and fake labels during training
+real_label = 1.
+fake_label = 0.
+
+# Setup Adam optimizers for both G and D
+optimizerD = optim.Adam(netD.parameters(), lr=lr, betas=(beta1, 0.999))
+optimizerG = optim.Adam(netG.parameters(), lr=lr, betas=(beta1, 0.999))
