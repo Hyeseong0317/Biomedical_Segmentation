@@ -117,4 +117,4 @@ optimizerD = optim.Adam(netD.parameters(), lr=lr, betas=(beta1, 0.999))
 optimizerG = optim.Adam(netG.parameters(), lr=lr, betas=(beta1, 0.999))
 
 
-[](https://github.com/soumith/ganhacks)
+()[https://github.com/soumith/ganhacks]
