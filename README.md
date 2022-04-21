@@ -285,6 +285,14 @@ GAN의 perceptual 측정지표로 Inception score를 쓰며, 이 score는 Google
 
 [초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (1)](https://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html)
 
+논문에서 한 가지 실용적인 tip이 나오는데, 위에 value function에서 log(1−D(G(z))) 부분을 G에 대해 minimize하는 대신 log(D(G(z)))를 maximize하도록 G를 학습시킨다는 것입니다.
+
+나중에 저자가 밝히 듯이 이 부분은 전혀 이론적인 동기로부터 수정을 한 것이 아니라 순수하게 실용적인 측면에서 적용을 하게 된 것이라 합니다.
+
+이유도 아주 직관적인데 예를 들어 학습 초기를 생각해보면, G가 초기에는 아주 이상한 image들을 생성하기 때문에 D가 너무도 쉽게 이를 real image와 구별하게 되고 따라서 log(1−D(G(z))) 값이 매우 saturate하여 gradient를 계산해보면 아주 작은 값이 나오기 때문에 학습이 엄청 느립니다.
+
+하지만 문제를 G=argmaxGlog(D(G(z)))로 바꾸게 되면, 초기에 D가 G로 나온 image를 잘 구별한다고 해도 위와 같은 문제가 생기지 않기 때문에 원래 문제와 같은 fixed point를 얻게 되면서도 stronger gradient를 줄 수 있는 상당히 괜찮은 해결방법이죠.
+
 [초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (2)](https://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-2.html)
 
 [NIPS 2016 Tutorial:Generative Adversarial Networks](https://arxiv.org/pdf/1701.00160.pdf)
