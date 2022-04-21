@@ -258,6 +258,10 @@ Discriminator가 data distribution과 model distribution을 구별할 수 없는
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/GAN이해2.PNG" width="40%">
 
+minmax Game 수식 이해, 기댓값의 정의에 의해 expectation은 probability 곱하기 x에서의 sampling 값입니다.
+
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/minmaxgame기댓값.jpg" width="40%">
+
 GAN의 perceptual 측정지표로 Inception score를 쓰며, 이 score는 Google Inception(GoogleLeNet)에서 classfication해주는 모델 사용
 
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/inceptionscore.jpg" width="40%">
