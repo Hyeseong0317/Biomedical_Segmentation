@@ -287,6 +287,8 @@ GAN의 perceptual 측정지표로 Inception score를 쓰며, 이 score는 Google
 
 [초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (2)](https://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-2.html)
 
+[NIPS 2016 Tutorial:Generative Adversarial Networks](https://arxiv.org/pdf/1701.00160.pdf)
+
 GAN: https://arxiv.org/abs/1406.2661
 DCGAN: https://arxiv.org/abs/1511.06434
 cGAN: https://arxiv.org/abs/1611.07004
