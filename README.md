@@ -2,6 +2,8 @@
 
 ### Convolution, Stride, Upsampling, Resolution Idea
 
+[::-1] -> 리스트 모슨 원소 역순으로 인덱싱
+
 [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 
 [Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
