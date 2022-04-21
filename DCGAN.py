@@ -1,4 +1,4 @@
-# DCGAN
+# DCGAN Tutorial PyTorch Tutorial 참고 --> https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 # GAN 파라미터 설정시 주의사항 참고 --> https://github.com/soumith/ganhacks
 # custom weights initialization called on netG and netD
 def weights_init(m):
