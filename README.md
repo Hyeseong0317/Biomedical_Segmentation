@@ -283,6 +283,8 @@ GAN의 perceptual 측정지표로 Inception score를 쓰며, 이 score는 Google
 
 ### 수학적으로 생성 모델의 목적은 실제 데이터 분포와 근사한 것이라고 말할 수 있다.
 
+[초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (1)](https://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html)
+
 [초짜 대학원생 입장에서 이해하는 Generative Adversarial Nets (2)](https://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-2.html)
 
 GAN: https://arxiv.org/abs/1406.2661
