@@ -1,4 +1,5 @@
-# 
+# DCGAN
+# GAN 파라미터 설정시 주의사항 참고 --> https://github.com/soumith/ganhacks
 # custom weights initialization called on netG and netD
 def weights_init(m):
     classname = m.__class__.__name__
