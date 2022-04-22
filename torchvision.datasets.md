@@ -10,8 +10,7 @@ import torchvision.utils as vutils
 
 # Batch size during training
 batch_size = 128
-# Spatial size of training images. All images will be resized to this
-#   size using a transformer.
+# Spatial size of training images. All images will be resized to this size using a transformer.
 image_size = 64
 
 # We can use an image folder dataset the way we have it setup.
@@ -34,4 +33,4 @@ device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else 
 
 ---> [torchvision.datasets --> DatasetFolder, ImageFolder, VisionDataset](https://pytorch.org/vision/stable/datasets.html)
 
-
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/torchvisiondatasets.PNG" width="40%">
