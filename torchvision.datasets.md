@@ -33,4 +33,4 @@ device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else 
 
 ---> [torchvision.datasets --> DatasetFolder, ImageFolder, VisionDataset](https://pytorch.org/vision/stable/datasets.html)
 
-<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/torchvisiondatasets.PNG" width="40%">
+<img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/torchvisiondatasets.PNG" width="60%">
