@@ -103,9 +103,7 @@ torch.randn(*size, *, out=None, dtype=None, layout=torch.strided, device=None, r
 -->size (int...) – a sequence of integers defining the shape of the output tensor. Can be a variable number of arguments or a collection like a list or tuple.
 -->out (Tensor, optional) – the output tensor.
 
-ex) fixed_noise = torch.rand((64, 64), (nz, nz), 1, 1, device=device) ...?
-ex) fixed_noise = torch.randn(64, nz, 1, 1, device=device)
-
+ex) fixed_noise = torch.randn(64, nz, 1, 1, device=device) # size=64, nz=100(length of latent vector)
 
 # Initialize BCELoss function
 criterion = nn.BCELoss()
