@@ -10,6 +10,8 @@ def weights_init(m):
         nn.init.constant_(m.bias.data, 0)
 
 [::-1] -> 리스트 모슨 원소 역순으로 인덱싱
+torch.nn.ConvTranspose3d(in_channels, out_channels, kernel_size, stride=1, padding=0, output_padding=0, groups=1, bias=True, dilation=1, padding_mode='zeros', device=None, dtype=None)
+torch.nn.ConvTranspose2d(in_channels, out_channels, kernel_size, stride=1, padding=0, output_padding=0, groups=1, bias=True, dilation=1, padding_mode='zeros', device=None, dtype=None)
 
 class Generator(nn.Module):
     def __init__(self, ngpu):
@@ -98,6 +100,12 @@ print(netD)
 
 
 torch.randn(*size, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False) → Tensor
+-->size (int...) – a sequence of integers defining the shape of the output tensor. Can be a variable number of arguments or a collection like a list or tuple.
+-->out (Tensor, optional) – the output tensor.
+
+ex) fixed_noise = torch.rand((64, 64), (nz, nz), 1, 1, device=device) ...?
+ex) fixed_noise = torch.randn(64, nz, 1, 1, device=device)
+
 
 # Initialize BCELoss function
 criterion = nn.BCELoss()
