@@ -509,3 +509,7 @@ Assume the problem we face is to construct a model for some unknown data-generat
 <img src="https://github.com/Hyeseong0317/CT_Segmentation/blob/main/images/corrupted.PNG" width="40%">
 
 [Generative image modeling using style and structure adversarial networks](https://arxiv.org/pdf/1603.05631.pdf)
+
+### GAN 활용사례
+
+[GAN Augmentation: Augmenting Training Data using Generative Adversarial Networks](https://arxiv.org/pdf/1810.10863.pdf)
