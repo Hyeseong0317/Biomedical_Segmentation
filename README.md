@@ -313,6 +313,8 @@ SRGAN: https://arxiv.org/abs/1609.04802
 SEGAN: https://arxiv.org/abs/1703.09452
 StyleGAN: https://arxiv.org/pdf/1812.04948.pdf
 
+LSGAN: https://arxiv.org/pdf/1611.04076.pdf
+
 #### StyleGAN 
 #### If the network tried to control, e.g., pose using the noise, that would lead to spatially inconsistent decisions that would then be penalized by the discriminator. Thus the network learns to use the global and local channels appropriately, without explicit guidance.
 
