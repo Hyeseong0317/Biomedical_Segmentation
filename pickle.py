@@ -10,3 +10,5 @@
             
    with open(os.path.join(output_folder_stage, "%s.pkl" % case_identifier), 'wb') as f:
       pickle.dump(properties, f)
+        
+  all_classes = load_pickle(join(input_folder_with_cropped_npz, 'dataset_properties.pkl'))['all_classes']
