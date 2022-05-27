@@ -2,6 +2,8 @@
 
 ### Convolution, Stride, Upsampling, Resolution Idea
 
+[Pytorch, view, stack, eye(대각행렬), reshape등 원리 예제](https://seungjuitmemo.tistory.com/102)
+
 [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 
 [Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
