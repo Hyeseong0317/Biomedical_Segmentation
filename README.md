@@ -1,5 +1,9 @@
 # Biomedical_Segmentation
 
+##### What is dense prediction?
+
+Dense prediction is a family of fundamental problems in computer vision, which learns a mapping from input images to complex output structures, including semantic segmentation, depth estimation, and object detection, among many others. Pixel-level labeling is required in such tasks.
+
 ### Convolution, Stride, Upsampling, Resolution Idea
 
 [Pytorch, view, stack, eye(대각행렬), reshape등 원리 예제](https://seungjuitmemo.tistory.com/102)
