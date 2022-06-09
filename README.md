@@ -1,5 +1,7 @@
 # Biomedical_Segmentation
 
+[인공지능 의료이미징 개방형 네트워크 'MONAI'... 헬스케어 분야 AI 혁신 가속화](http://www.aitimes.kr/news/articleView.html?idxno=18526)
+
 ##### What is dense prediction?
 
 Dense prediction is a family of fundamental problems in computer vision, which learns a mapping from input images to complex output structures, including semantic segmentation, depth estimation, and object detection, among many others. Pixel-level labeling is required in such tasks.
