@@ -2,9 +2,11 @@
 
 [인공지능 의료이미징 개방형 네트워크 'MONAI'... 헬스케어 분야 AI 혁신 가속화](http://www.aitimes.kr/news/articleView.html?idxno=18526)
 
-DiceLoss and the portion of background
+[MONAI API](https://docs.monai.io/en/stable/losses.html)
 
-<img src="https://github.com/sandokim/Biomedical_Segmentation/blob/main/images/DiceLoss.PNG" width="60%">
+DiceLoss에서 만약 background가 foreground보다 작은 경우, background가 foreground signal에 압도당하므로 background를 아예 제거시키는 것이 convergence하는데 도움이 된다.
+
+<img src="https://github.com/sandokim/Biomedical_Segmentation/blob/main/images/DiceLoss.PNG" width="80%">
 
 ##### What is dense prediction?
 
