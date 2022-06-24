@@ -4,7 +4,7 @@
 
 [MONAI API](https://docs.monai.io/en/stable/losses.html)
 
-DiceLoss에서 만약 background가 foreground보다 작은 경우, background가 foreground signal에 압도당하므로 background를 아예 제거시키는 것이 convergence하는데 도움이 된다.
+DiceLoss에서 만약 background가 foreground보다 큰 경우, foreground signal이 background에 압도당하므로 background를 아예 제거시키는 것이 convergence하는데 도움이 된다. 혹은 loss를 구성할 때 background의 weighting을 적게 준다.
 
 <img src="https://github.com/sandokim/Biomedical_Segmentation/blob/main/images/DiceLoss.PNG" width="80%">
 
